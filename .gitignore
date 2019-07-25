@@ -1,3 +1,5 @@
 .idea/
 pom.xml
 springboot.iml
+.DS_Store
+target
