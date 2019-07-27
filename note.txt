@@ -1,0 +1,17 @@
+--spring.profiles.active=dev
+--spring.profiles.active=prod
+-Dspring.profiles.active=prod 虚拟机参数
+
+--spring.config.location     //动态选择配置文件
+// 优先级从上到下，由高到低，高优先级覆盖低优先级；互补配置，高优先级没有到，用低优先级的
+- file:./config/          //当前工程路径
+- file:./
+- classpath:/config/      //resources路径
+- classpath:/
+
+--server.port=8086
+
+slf4j + logback
+
+
+
