@@ -1,15 +1,17 @@
 package com.xiao.bean;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+@PropertySource(value = {"classpath:person.properties"})
 @Component
 @ConfigurationProperties(prefix = "person")
-public class Persion {
+public class Person {
 
     private String lastName;
     private Integer age;
@@ -17,7 +19,7 @@ public class Persion {
     private Date birth;
 
     private Map<String, Object> maps;
-    private List<Object> list;
+    private List<Object> lists;
     private Dog dog;
 
     @Override
@@ -28,7 +30,7 @@ public class Persion {
                 ", boss=" + boss +
                 ", birth=" + birth +
                 ", maps=" + maps +
-                ", list=" + list +
+                ", lists=" + lists +
                 ", dog=" + dog +
                 '}';
     }
@@ -73,12 +75,12 @@ public class Persion {
         this.maps = maps;
     }
 
-    public List<Object> getList() {
-        return list;
+    public List<Object> getLists() {
+        return lists;
     }
 
-    public void setList(List<Object> list) {
-        this.list = list;
+    public void setLists(List<Object> lists) {
+        this.lists = lists;
     }
 
     public Dog getDog() {
