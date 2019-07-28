@@ -347,3 +347,4 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [succe
 2019-07-28 13:58:19.494  INFO 11041 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-07-28 13:58:19.496  INFO 11041 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2019-07-28 13:58:19.503  INFO 11041 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-07-28 14:14:12.877  INFO 11041 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -3,11 +3,14 @@ package com.xiao.dao;
 import com.xiao.entities.Department;
 import com.xiao.entities.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
+import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+@Repository
 public class EmployeeDao {
 
     private static Map<Integer, Employee> employees = null;
@@ -35,5 +38,17 @@ public class EmployeeDao {
 
         employee.setDepartment(departmentDao.getDepartment(employee.getDepartment().getId()));
         employees.put(employee.getId(), employee);
+    }
+
+    public Collection<Employee> getAll() {
+        return employees.values();
+    }
+
+    public Employee get(Integer id) {
+        return employees.get(id);
+    }
+
+    public void delete(Integer id) {
+        employees.remove(id);
     }
 }
