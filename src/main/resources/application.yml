@@ -1,11 +1,13 @@
 server:
   port: 8080
+  tomcat:
+    uri-encoding: UTF-8
 #debug: true
+
 
 logging:
   level:
     com.xiao: debug
-  file: springboot.log
 #  pattern:
 #    file:
 #  pattern:
