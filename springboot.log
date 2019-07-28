@@ -255,3 +255,95 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [succe
 2019-07-28 09:23:52.445  INFO 10169 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-07-28 09:23:52.446  INFO 10169 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2019-07-28 09:23:52.451  INFO 10169 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-07-28 10:19:54.720  INFO 10169 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-28 10:20:05.406  INFO 10345 --- [main] com.xiao.MainApplication                 : Starting MainApplication on xiaoxudeMacBook-Pro.local with PID 10345 (/Users/xiao/Documents/github_project/springboot/target/classes started by xiao in /Users/xiao/Documents/github_project/springboot)
+2019-07-28 10:20:05.410 DEBUG 10345 --- [main] com.xiao.MainApplication                 : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-28 10:20:05.411  INFO 10345 --- [main] com.xiao.MainApplication                 : No active profile set, falling back to default profiles: default
+2019-07-28 10:20:07.134  INFO 10345 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-28 10:20:07.157  INFO 10345 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-28 10:20:07.158  INFO 10345 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-28 10:20:07.263  INFO 10345 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-28 10:20:07.264  INFO 10345 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1723 ms
+2019-07-28 10:20:07.736  INFO 10345 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-28 10:20:07.833  INFO 10345 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-28 10:20:07.933  INFO 10345 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-28 10:20:07.937  INFO 10345 --- [main] com.xiao.MainApplication                 : Started MainApplication in 3.18 seconds (JVM running for 4.606)
+2019-07-28 10:20:38.418  INFO 10345 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-28 10:20:38.418  INFO 10345 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-28 10:20:38.427  INFO 10345 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-07-28 10:21:03.955  INFO 10345 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-28 10:21:13.854  INFO 10360 --- [main] com.xiao.MainApplication                 : Starting MainApplication on xiaoxudeMacBook-Pro.local with PID 10360 (/Users/xiao/Documents/github_project/springboot/target/classes started by xiao in /Users/xiao/Documents/github_project/springboot)
+2019-07-28 10:21:13.857 DEBUG 10360 --- [main] com.xiao.MainApplication                 : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-28 10:21:13.858  INFO 10360 --- [main] com.xiao.MainApplication                 : No active profile set, falling back to default profiles: default
+2019-07-28 10:21:15.902  INFO 10360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-28 10:21:15.963  INFO 10360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-28 10:21:15.964  INFO 10360 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-28 10:21:16.106  INFO 10360 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-28 10:21:16.106  INFO 10360 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2128 ms
+2019-07-28 10:21:16.454  INFO 10360 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-28 10:21:16.607  INFO 10360 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-28 10:21:16.809  INFO 10360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-28 10:21:16.816  INFO 10360 --- [main] com.xiao.MainApplication                 : Started MainApplication in 3.741 seconds (JVM running for 4.898)
+2019-07-28 10:21:33.134  INFO 10360 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-28 10:21:33.134  INFO 10360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-28 10:21:33.139  INFO 10360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-07-28 11:11:21.810  INFO 10360 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-28 11:11:28.885  INFO 10539 --- [main] com.xiao.MainApplication                 : Starting MainApplication on xiaoxudeMacBook-Pro.local with PID 10539 (/Users/xiao/Documents/github_project/springboot/target/classes started by xiao in /Users/xiao/Documents/github_project/springboot)
+2019-07-28 11:11:28.888 DEBUG 10539 --- [main] com.xiao.MainApplication                 : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-28 11:11:28.889  INFO 10539 --- [main] com.xiao.MainApplication                 : No active profile set, falling back to default profiles: default
+2019-07-28 11:11:30.430  INFO 10539 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-28 11:11:30.461  INFO 10539 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-28 11:11:30.463  INFO 10539 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-28 11:11:30.577  INFO 10539 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-28 11:11:30.577  INFO 10539 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1537 ms
+2019-07-28 11:11:30.828  INFO 10539 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-28 11:11:30.948  INFO 10539 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-07-28 11:11:31.039  INFO 10539 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-28 11:11:31.043  INFO 10539 --- [main] com.xiao.MainApplication                 : Started MainApplication in 2.759 seconds (JVM running for 4.142)
+2019-07-28 11:11:42.480  INFO 10539 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-28 11:11:42.480  INFO 10539 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-28 11:11:42.485  INFO 10539 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-07-28 11:15:22.157  INFO 10539 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-28 11:15:30.876  INFO 10575 --- [main] com.xiao.MainApplication                 : Starting MainApplication on xiaoxudeMacBook-Pro.local with PID 10575 (/Users/xiao/Documents/github_project/springboot/target/classes started by xiao in /Users/xiao/Documents/github_project/springboot)
+2019-07-28 11:15:30.889 DEBUG 10575 --- [main] com.xiao.MainApplication                 : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-28 11:15:30.890  INFO 10575 --- [main] com.xiao.MainApplication                 : No active profile set, falling back to default profiles: default
+2019-07-28 11:15:32.998  INFO 10575 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-28 11:15:33.021  INFO 10575 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-28 11:15:33.022  INFO 10575 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-28 11:15:33.277  INFO 10575 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-28 11:15:33.278  INFO 10575 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2231 ms
+2019-07-28 11:15:33.999  INFO 10575 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-28 11:15:34.191  INFO 10575 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-07-28 11:15:34.336  INFO 10575 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-28 11:15:34.341  INFO 10575 --- [main] com.xiao.MainApplication                 : Started MainApplication in 4.644 seconds (JVM running for 6.314)
+2019-07-28 11:15:47.838  INFO 10575 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-28 11:15:54.600  INFO 10589 --- [main] com.xiao.MainApplication                 : Starting MainApplication on xiaoxudeMacBook-Pro.local with PID 10589 (/Users/xiao/Documents/github_project/springboot/target/classes started by xiao in /Users/xiao/Documents/github_project/springboot)
+2019-07-28 11:15:54.604 DEBUG 10589 --- [main] com.xiao.MainApplication                 : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-28 11:15:54.605  INFO 10589 --- [main] com.xiao.MainApplication                 : No active profile set, falling back to default profiles: default
+2019-07-28 11:15:56.294  INFO 10589 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-28 11:15:56.320  INFO 10589 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-28 11:15:56.321  INFO 10589 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-28 11:15:56.405  INFO 10589 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-28 11:15:56.405  INFO 10589 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1689 ms
+2019-07-28 11:15:56.679  INFO 10589 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-28 11:15:56.774  INFO 10589 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-07-28 11:15:56.866  INFO 10589 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-28 11:15:56.869  INFO 10589 --- [main] com.xiao.MainApplication                 : Started MainApplication in 2.903 seconds (JVM running for 4.225)
+2019-07-28 11:16:09.692  INFO 10589 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-28 11:16:09.692  INFO 10589 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-28 11:16:09.697  INFO 10589 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-07-28 13:57:59.698  INFO 10589 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-28 13:58:10.078  INFO 11041 --- [main] com.xiao.MainApplication                 : Starting MainApplication on xiaoxudeMacBook-Pro.local with PID 11041 (/Users/xiao/Documents/github_project/springboot/target/classes started by xiao in /Users/xiao/Documents/github_project/springboot)
+2019-07-28 13:58:10.082 DEBUG 11041 --- [main] com.xiao.MainApplication                 : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-28 13:58:10.097  INFO 11041 --- [main] com.xiao.MainApplication                 : No active profile set, falling back to default profiles: default
+2019-07-28 13:58:11.832  INFO 11041 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-28 13:58:11.865  INFO 11041 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-28 13:58:11.865  INFO 11041 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-28 13:58:11.969  INFO 11041 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-28 13:58:11.969  INFO 11041 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1656 ms
+2019-07-28 13:58:12.217  INFO 11041 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-28 13:58:12.420  INFO 11041 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-28 13:58:12.424  INFO 11041 --- [main] com.xiao.MainApplication                 : Started MainApplication in 3.158 seconds (JVM running for 4.895)
+2019-07-28 13:58:19.494  INFO 11041 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-28 13:58:19.496  INFO 11041 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-28 13:58:19.503  INFO 11041 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms

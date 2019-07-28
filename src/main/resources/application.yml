@@ -11,4 +11,9 @@ logging:
 #  pattern:
 #    console: xxxx
 #  path: xxxx
+spring:
+  thymeleaf:
+    cache: false
 
+  messages:
+    basename: i18n.loginv
